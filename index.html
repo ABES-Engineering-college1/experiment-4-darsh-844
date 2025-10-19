@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+    <!--Written by Darsh Jaiswal ECE-01
+    Roll no.-39
+    Admission no.-2025B03110157-->
+    <form action="./response.html" method="get" target="_blank" name="Hotel Room Booking Form">
+       <fieldset><center>
+            <h1><b>Hotel Room Booking Form</b></h1>
+            <br><br>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" required>
+            <br><br>
+            <label for="date">Check-In Date:</label>
+            <input type="date" name="date" id="date" required>
+            <br><br>
+            <label for="date">Check-Out Date:</label>
+            <input type="date" name="date" id="date" required>
+            <br><br>
+            <label for="select">Room Of Your Choice:</label>
+            <select name="select" id="select">
+                <option>Select any room</option>
+                <option value="Single Delexe Room">Single Delexe Room</option>
+                <option value="Double Delexe Room">Double Delexe Room</option>
+                <option value="Penthouse">Penthouse</option>
+                <option value="Ocean side view">Ocean side view</option>
+                <option value="Plain side view">Plain side view</option>
+            </select>
+            <br><br>
+            <label for="number">Number Of Guests:</label>
+            <input type="number" name="number" id="number" min="1" max="4" required>
+            <br><br>
+            <label for="text">Special Request:</label>
+            <br>
+            <textarea name="text" id="text" rows="15" cols="55"></textarea>
+            <br><br>
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset Form">
+        </center></fieldset>
+    </form>
+</body>
+</html>
